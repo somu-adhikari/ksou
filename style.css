@@ -1,0 +1,62 @@
+/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    flex-direction: column;
+    text-align: center;
+}
+
+/* Cake Photo */
+.cake-container {
+    position: relative;
+    width: 80vw; /* Responsive width */
+    max-width: 400px; /* Maximum width for large screens */
+    margin-bottom: 20px;
+}
+
+.cake-photo {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Birthday Wish */
+.wish-text {
+    font-size: 1.5rem; /* Responsive font size */
+    color: #ff4081;
+    margin: 10px 0;
+}
+
+#message p {
+    font-size: 1rem; /* Responsive font size */
+    color: #333;
+}
+
+/* Button Styling */
+.next-page {
+    margin-top: 20px;
+}
+
+#next-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: #ff4081;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#next-button:hover {
+    background-color: #ff80ab;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Kanika!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Cake Photo Section -->
+    <section id="cake-photo">
+        <div class="cake-container">
+            <img src="happybirthday.jpg" alt="Cake" class="cake-photo">
+        </div>
+        <div id="message">
+            <h1 class="wish-text">Happy Birthday, Kanika!</h1>
+            <p>Wishing you all the happiness in the world!</p>
+        </div>
+
+        <!-- Button to go to the next page -->
+        <div class="next-page">
+            <button id="next-button">Enter the Celebration!</button>
+        </div>
+    </section>
+
+    <!-- JavaScript for Button Transition -->
+    <script>
+        document.getElementById("next-button").addEventListener("click", function() {
+            window.location.href = "home.html"; // Change to the URL of your next page
+        });
+    </script>
+</body>
+</html>
